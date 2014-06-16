@@ -71,7 +71,21 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 
 #r2{}
 
-#how{}
+#how{background:linear-gradient(to top left, #f8f3c5, #bbefe9);}
+#how img{position:absolute;left:230px;top:245px;}
+#how img.horisontal{position:absolute;left:180px;top:245px;}
+#how img.horisontal2{position:absolute;left:180px;top:525px;}
+#how img.vertical{position:absolute;left:846px;top:365px;}
+#how h2{font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:50px 0 0 180px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#how ol{list-style:none;font:16px "Georgia";color:#492403;text-align:center;padding-bottom:45px;}
+#how ol li{width:181px;position:relative;display:inline-block;padding-top:225px;vertical-align:center;margin-left:10px}
+.how1{background:url(img/w6.png)no-repeat center;margin-right:180px}
+.how2{background:url(img/w5.png)no-repeat center;margin-right:180px}
+.how3{background:url(img/w4.png)no-repeat center}
+.how4{background:url(img/w3.png)no-repeat center;margin-right:180px}
+.how5{background:url(img/w2.png)no-repeat center;margin-right:180px}
+.how6{background:url(img/w1.png)no-repeat center}
+
 
 #reviews{}
 
