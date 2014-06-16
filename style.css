@@ -11,9 +11,17 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .button{cursor:pointer}
 
 section{clear:both}
-main{margin:0 auto;width:998px;position:relative}
+main{margin:0 auto;width:960px;position:relative}
 
-header{}
+header{background:url('img/fon1.jpg') center top no-repeat;color:white;font-weight:bold;height:814px;}
+header main{text-align:right;}
+header h1{font-size:65px;background-color:#2d2d2d;float:right;padding:0 20px;margin:50px 10px 0 10px;}
+header h2{font-weight:normal;font-size:65px;background-color:#2d2d2d;padding:0 20px;float:right;margin:0 10px 50px 10px;}
+header p{clear:both;float:right;background-color:#2d2d2d;font-size:35px;}
+header p.left{text-align:left;}
+header p span{color:#fbd63a}
+header form{display:inline-block;clear:both;float:right;}
+header input{display:block;width:220px;height:30px;padding:5px;color:#73b95b;font:24px 'Segoe UI Light';margin-bottom:5px;outline:none;border:none;}
 
 #facts{}
 
