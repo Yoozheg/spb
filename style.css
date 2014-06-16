@@ -11,7 +11,7 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .button{cursor:pointer}
 
 section{clear:both}
-main{margin:0 auto;width:998px;position:relative}
+main{margin:0 auto;width:960px;position:relative}
 
 header{}
 
@@ -20,6 +20,16 @@ header{}
 #days{}
 
 #why{}
+#why{height:814px;background:url(img/fon1.jpg) no-repeat center;}
+#why h2{font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#why div{background:url(img/podlojka.png) no-repeat center;weight:866px; height:507px}
+#why div ol{font:bold italic 17px "Trebuchet MS";color:#2d2d2d;width:370px;position:relative;display:inline-block;margin-top:45px;list-style:none;padding-left:100px}
+#why div ol.why_left{text-align:right;}
+#why div ol.why_right{text-align:left;vertical-align:center;margin-left:-30px}
+#why div ol li{padding-top:45px}
+#why div ol.why_right li {padding-top:60px;}
+
+
 
 #r1{}
 
