@@ -38,15 +38,36 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 #why div ol li{padding-top:45px}
 #why div ol.why_right li {padding-top:60px;}
 
-
-
 #r1{}
 
-#t1{}
+#t1{background:url(img/fon3.jpg)no-repeat center;height:859px;}
+#t1 h2{position:absolute;top:-10px;left:223px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#t1 div{float:right;width:410px;height:734px;background:white;margin-top:60px}
+#t1 div ol{list-style:none;padding:115px 0px 105px 30px;font:bold 18px "Trebuchet MS"}
+#t1 div ol li{padding:14px 0}
+#t1 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
+#t1 div p{font:16px "Trebuchet MS";padding:10px 0 10px 30px}
+#t1 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
 
-#t2{}
+#t2{background:url(img/fon4.jpg)no-repeat center;height:859px;}
+#t2 h2{position:absolute;top:-10px;left:185px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#t2 div{float:left;width:410px;height:734px;background:white;margin-top:60px}
+#t2 div ol{list-style:none;padding:110px 0px 97px 30px;font:bold 18px "Trebuchet MS"}
+#t2 div ol li{padding:12px 0}
+#t2 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
+#t2 div p{font:16px "Trebuchet MS";padding:10px 0 9px 30px}
+#t2 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
 
-#t3{}
+
+#t3{background:url(img/fon5.jpg)no-repeat center;height:859px;}
+#t3 h2{position:absolute;top:-10px;left:180px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#t3 div{float:right;width:410px;height:734px;background:white;margin-top:60px}
+#t3 div ol{list-style:none;padding:110px 0px 95px 30px;font:bold 18px "Trebuchet MS"}
+#t3 div ol li{padding:13px 0}
+#t3 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
+#t3 div p{font:16px "Trebuchet MS";padding:10px 0 10px 30px}
+#t3 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
+
 
 #r2{}
 
