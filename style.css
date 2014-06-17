@@ -107,7 +107,14 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 
 #questions{}
 
-footer{}
+footer{color:white;background:url('img/fon7.jpg') center top no-repeat;height:330px;}
+footer main{text-align:center;}
+footer h2, footer p, footer h4{font:normal 16px "Trebuchet MS";}
+footer h3{font-size:28px;}
+footer h2{padding-top:120px;}
+footer h3{padding-top:35px;}
+footer h4{padding-top:27px;}
+footer span{color:#fdd81e}
 
 #splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
 #splash main{text-align:center;top:150px}
