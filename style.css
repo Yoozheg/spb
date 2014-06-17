@@ -26,7 +26,7 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 
 #facts{background-color:#2d2d2d;}
 #facts main{text-align:center;}
-#facts h2{font:37px "ElektraLightPro","Trebuchet MS";color:white;text-transform:uppercase;padding-top:50px;}
+#facts h2{font-size:37px;font-family:"ElektraLightPro","Trebuchet MS";color:white;text-transform:uppercase;padding-top:50px;}
 #facts ul{list-style:none;padding-top:100px;}
 #facts li{display:inline-block;width:190px;padding:100px 45px 60px 45px;color:white;font:15px "Trebuchet MS";}
 #facts li.f1{background:url('img/o1.png') center top no-repeat;}
@@ -49,6 +49,15 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 #why div ol.why_right li {padding-top:60px;}
 
 #r1{}
+#r2{}
+.request{background-color:#f6662f;color:white;padding:60px 0;}
+.request main{text-align:center;}
+.request h2{font:62px 'KelsonSans RegularRu','Trebuchet MS';text-transform:uppercase;}
+.request p{font:29px/29px 'KelsonSans RegularRu','Trebuchet MS';text-transform:uppercase;margin:30px 0;}
+.request form{}
+.request input{display:inline-block;width:282px;height:25px;padding:5px;color:#9fa4b0;font:16px 'Segoe UI';margin-bottom:5px;outline:none;border:none;margin-bottom:15px}
+.request button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px 'Segoe UI';text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
+.request button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 
 #t1{background:url(img/fon3.jpg)no-repeat center;height:859px;}
 #t1 h2{position:absolute;top:-10px;left:223px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
@@ -77,9 +86,6 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 #t3 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
 #t3 div p{font:16px "Trebuchet MS";padding:10px 0 10px 30px}
 #t3 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
-
-
-#r2{}
 
 #how{background:linear-gradient(to top left, #f8f3c5, #bbefe9);}
 #how img{position:absolute;left:230px;top:245px;}
