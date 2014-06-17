@@ -45,7 +45,7 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 #why div ol{font:bold italic 17px "Trebuchet MS";color:#2d2d2d;width:382px;position:relative;display:inline-block;margin-top:45px;list-style:none;padding-left:100px}
 #why div ol.why_left{text-align:right;}
 #why div ol.why_right{text-align:left;vertical-align:center;margin-left:-65px}
-#why div ol li{padding-top:45px}
+#why div ol li{padding-top:48px}
 #why div ol.why_right li {padding-top:60px;}
 
 #r1{}
