@@ -55,7 +55,7 @@ header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-tran
 .request h2{font:62px 'KelsonSans RegularRu','Trebuchet MS';text-transform:uppercase;}
 .request p{font:29px/29px 'KelsonSans RegularRu','Trebuchet MS';text-transform:uppercase;margin:30px 0;}
 .request form{}
-.request input{display:inline-block;width:282px;height:25px;padding:5px;color:#9fa4b0;font:16px 'Segoe UI';outline:none;border:none;margin-bottom:25px}
+.request input{display:inline-block;width:282px;height:25px;padding:5px;color:#9fa4b0;font:16px 'Segoe UI';outline:none;border:none;margin:0 15px 25px 15px}
 .request button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px 'Segoe UI';text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
 .request button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 
