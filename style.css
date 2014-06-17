@@ -24,7 +24,17 @@ header form{display:inline-block;clear:both;float:right;margin-top:30px;}
 header input{display:block;width:300px;height:10px;padding:15px;color:#9fa4b0;font:16px 'Segoe UI';margin-bottom:5px;outline:none;border:none;margin-bottom:15px;}
 header button{width:170px;height:40px;color:white;font:12px 'Segoe UI';text-transform:uppercase;background:#2d2d2d;border:none;outline:none;cursor:pointer;}
 
-#facts{}
+#facts{background-color:#2d2d2d;}
+#facts main{text-align:center;}
+#facts h2{font:37px "ElektraLightPro","Trebuchet MS";color:white;text-transform:uppercase;padding-top:50px;}
+#facts ul{list-style:none;padding-top:100px;}
+#facts li{display:inline-block;width:190px;padding:100px 45px 60px 45px;color:white;font:15px "Trebuchet MS";}
+#facts li.f1{background:url('img/o1.png') center top no-repeat;}
+#facts li.f2{width:280px;background:url('img/o2.png') center top no-repeat;}
+#facts li.f3{background:url('img/o3.png') center top no-repeat;}
+#facts li.f4{background:url('img/o4.png') center top no-repeat;}
+#facts li.f5{width:280px;background:url('img/o5.png') center top no-repeat;}
+#facts li.f6{background:url('img/o6.png') center top no-repeat;}
 
 #days{}
 
