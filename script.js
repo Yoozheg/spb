@@ -100,7 +100,7 @@
  }
  
  window.onload = function(e){
-  var forms = document.querySelectorAll('form img');
+  var forms = document.querySelectorAll('form button,form img');
   for(var i = 0; i < forms.length; ++i){
    forms[i].onclick = submit;
   }
@@ -117,23 +117,37 @@
    $('#splash').style.display = 'none';
    return false;
   }
-	
-	$('#splash').onclick = function(){
-	 $('#splash').style.display = 'none';
-	}
-	$('#splash form').onclick = function(e){
-	 e.preventDefault();
+  
+  $('#splash').onclick = function(){
+   $('#splash').style.display = 'none';
+  }
+  $('#splash form').onclick = function(e){
+   e.preventDefault();
    e.stopPropagation();
    e.cancelBubble = true;
-	 return false;
-	}
-	
-	var buttons = document.querySelectorAll('.button');
-	function buttonClick(){
-	 $('#splash').style.display = 'block';
-	}
-	for(var i=0;i<buttons.length;++i){
-	 buttons[i].onclick = buttonClick;
-	}
+   return false;
+  }
+  
+  var buttons = document.querySelectorAll('.button');
+  function buttonClick(){
+   $('#splash').style.display = 'block';
+  }
+  for(var i=0;i<buttons.length;++i){
+   buttons[i].onclick = buttonClick;
+  }
+  
+  var figures = document.querySelectorAll('#sertificates figure');
+  for(var i = 0; i < figures.length; ++i){
+   (function(index){
+    figures[index].onclick = function(){
+     var bigIMG = $('#bigIMG');
+	 bigIMG.style.backgroundImage = 'url('+figures[index].getElementsByTagName('img')[0].src+')';
+	 bigIMG.style.display = 'block';
+    }
+   })(i)
+  }
+  $('#close').onclick = function(){
+   $('#bigIMG').style.display = 'none';
+  }
  }
 })(window, document);

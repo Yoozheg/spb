@@ -36,7 +36,13 @@ header button{width:170px;height:40px;color:white;font:12px "Trebuchet MS";text-
 #facts li.f5{width:280px;background:url('img/o5.png') center top no-repeat;}
 #facts li.f6{background:url('img/o6.png') center top no-repeat;}
 
-#days{}
+#days{text-align:center;background:#fffcf0 url(img/text.jpg) center top no-repeat}
+#days main{padding-top:50px;background:url(img/heart.jpg) center bottom no-repeat}
+#days h2{font:37px "Elektra Light Pro","Trebuchet MS";text-transform:uppercase;color:#2d2d2d;margin-bottom:80px}
+#days iframe{}
+#days blockquote{padding-top:55px;font-size:24px;padding-bottom:80px}
+#days blockquote div{font-family:"Georgia";font-style:italic;color:#000;padding-bottom:20px}
+#days blockquote p{font-family:"Trebuchet MS";font-weight:bold;color:#2d2d2d}
 
 #why{}
 #why{height:814px;background:url(img/fon1.jpg) no-repeat center;}
@@ -103,11 +109,26 @@ header button{width:170px;height:40px;color:white;font:12px "Trebuchet MS";text-
 .how6{background:url(img/w1.png)no-repeat center}
 
 
-#reviews{}
+#reviews{background:url(img/fon6.jpg) center top no-repeat}
+#reviews h2{font:37px "Trebuchet MS";text-align:center;text-transform:uppercase;color:#2d2d2d;padding-top:80px;padding-bottom:43px}
+#reviews h2 p{font-size:56px}
+#reviews #requests{padding:0 28px}
+#reviews #requests iframe{padding-bottom:8px}
+#reviews h2.black{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#ffffff;padding:1px;margin:52px 0 40px}
+#reviews h2.black span{background:#2d2d2d;padding:0 10px}
+#sertificates{padding-bottom:25px;text-align:center}
+#sertificates figure{width:216px;padding:0 10px;display:inline-block;cursor:pointer}
+#sertificates figure figcaption{background:#f8bb24;height:35px;text-transform:uppercase;text-align:center;font:14px "Elektra Light Pro",Tahoma,'Kelson Sans Ru',"Georgia";margin-bottom:6px}
 
 #questions{}
+#questions h2{text-align:left;font:37px "Trebuchet MS";text-transform:uppercase;color:#2d2d2d;padding-top:50px}
 
-footer{color:white;background:url('img/fon7.jpg') center top no-repeat;height:330px;}
+#questions form{padding-bottom:70px}
+#questions form input{display:inline-block;width:200px;height:28px;padding:5px;color:#9fa4b0;font:16px "Trebuchet MS";outline:none;border:1px solid #ccc;margin:0 15px 25px 0}
+#questions form button{display:inline-block;position:relative;width:160px;height:36px;color:black;cursor:pointer;font:bold 16px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:3px;box-shadow:0 3px #d0b303;border:none;outline:none;cursor:pointer}
+#questions form button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
+
+footer{color:white;background:url('img/fon7.jpg') center top no-repeat;height:330px}
 footer main{text-align:center;}
 footer h2, footer p, footer h4{font:normal 16px "Trebuchet MS";}
 footer h3{font-size:28px;}
@@ -116,10 +137,14 @@ footer h3{padding-top:35px;}
 footer h4{padding-top:27px;}
 footer span{color:#fdd81e}
 
-#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
-#splash main{text-align:center;top:150px}
+#splash,#bigIMG{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.7);color:white;text-shadow:0 0 1px #666;display:none}
+#splash section{background-color:#f6662f;color:white;position:absolute;left:0;right:0;top:25%}
+#splash main{text-align:center}
 #splash p{color:white;text-align:center}
-#splash form{margin:0 auto 0;position:static}
+#splash form{margin:0 auto 0}
+#bigIMG{background:rgba(0,0,0,.8) center center no-repeat;background-size:contain}
+#bigIMG #close{position:absolute;top:0;right:0;bottom:0;background:rgba(0,0,0,.3);color:white;cursor:pointer;text-align:right;padding:4% 3%}
+#bigIMG #close:hover{background:rgba(0,0,0,.5);}
 
 #copyright{text-align:center;font-size:12px;color:gray;font-family:Calibri}
 #copyright a{color:lime;text-decoration:none}
